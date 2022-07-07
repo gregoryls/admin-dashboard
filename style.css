@@ -10,7 +10,7 @@
 .content{
     background-color: #ff6c11;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 3fr 1fr;
 }
 .header{
     background-color: #1b179cb2;
@@ -31,6 +31,7 @@ img{
 }
 .projects{
     display: grid;
+    grid-area: 2/1/3/2;
     grid-template-rows: repeat(3,1fr);
     grid-template-columns: repeat(2,minmax(200px,400px));
 }
