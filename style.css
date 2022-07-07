@@ -44,3 +44,8 @@ img{
 .postIcons{
     justify-self: right;
 }
+.header{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+}
