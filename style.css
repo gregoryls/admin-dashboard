@@ -23,6 +23,10 @@ img{
     width: auto;
     height: 22px;
 }
+.logo img{
+    width: auto;
+    height: 40px;
+}
 .projects{
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -36,4 +40,7 @@ img{
 }
 .postIcons{
     justify-self: right;
+}
+.sidebar img{
+    background-color: #2de2e6;
 }
