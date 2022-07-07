@@ -9,6 +9,8 @@
 }
 .content{
     background-color: #ff6c11;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .header{
     background-color: #1b179cb2;
@@ -40,7 +42,4 @@ img{
 }
 .postIcons{
     justify-self: right;
-}
-.sidebar img{
-    
 }
