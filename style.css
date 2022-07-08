@@ -49,3 +49,17 @@ img{
     grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr 1.5fr;
 }
+.header input{
+    width: max(40vw,100px);
+    margin-left: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.search{
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    align-items: center;
+}
+.search img{
+    margin-left: 30px;
+}
