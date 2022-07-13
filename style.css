@@ -12,10 +12,18 @@
     display: grid;
     grid-template-columns: 22px 1fr;
     margin-top: 20px;
+    margin-left: 18.5px;
+    align-items: center;
+   
+}
+.tools a, .userOptions a{
+    margin-left: 18.5px;
 }
 .logo div{
     display: grid;
-    grid-template-columns: 48px 1fr
+    grid-template-columns: 60px 1fr;
+    margin-top: 20px;
+    align-items: center;
 }
 .content{
     background-color: #ff6c11;
@@ -37,7 +45,7 @@ img{
 }
 .logo img{
     width: auto;
-    height: 40px;
+    height: 60px;
 }
 .projects{
     display: grid;
