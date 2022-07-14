@@ -92,3 +92,6 @@ img{
 .announcements, .trending{
     background-color: #2de3e698;
 }
+#announcements, #trending{
+    margin-left: 0;
+}
