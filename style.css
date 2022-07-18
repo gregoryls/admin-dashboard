@@ -119,3 +119,18 @@ img{
     height: auto;
   
 }
+.trending img{
+    width: 40px;
+    height: auto;
+}
+.trending>div{
+    display: grid;
+    grid-template-columns:40px 1fr;
+    grid-template-rows: 50px;
+    align-items: center;
+}
+.handleText{
+    display: grid;
+    grid-template-columns: 20px;
+    
+}
