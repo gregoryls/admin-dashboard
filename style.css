@@ -82,11 +82,11 @@ img{
     justify-self: right;
 }
 .header{
-    background-color: #1b179c;
+    background-color: #023788;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
+    color: #ff6c11;
 }
 .header input{
     width: max(45vw,100px);
@@ -135,6 +135,8 @@ img{
     border-radius: 40px;
     padding: 8px;
     max-width: 75px;
+    color: #650d89;
+    font-weight: bold;
 }
 .welcome{
     display: grid;
