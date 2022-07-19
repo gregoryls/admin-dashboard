@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    /* background-color: #261447; */
+    background-color: #261447;
 }
 .sidebar{
     background-color: #261447;
@@ -32,21 +32,19 @@ body{
     background-color: #ff6c11;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 7vh 1fr;
+    grid-template-rows: 1fr 9fr;
     
 }
 .content h2{
     margin-left: 20px;
     margin-top: 15px;
 }
-.header{
-    background-color: #1b179cb2;
-}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
-
+    /* grid-template-rows: 1fr 5fr; */
+   
 }
 img{
     width: auto;
@@ -83,9 +81,11 @@ img{
     justify-self: right;
 }
 .header{
+    background-color: #1b179c;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    
 }
 .header input{
     width: max(45vw,100px);
